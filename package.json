@@ -3,6 +3,7 @@
   "private": true,
   "version": "1.2.6",
   "type": "module",
+  "homepage": "https://rafaelmerlin23.github.io/Portfolio",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

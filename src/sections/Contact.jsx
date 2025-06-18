@@ -58,7 +58,7 @@ const Contact = () => {
       .then(
         () => {
           setLoading(false);
-          alert("");
+          alert(t("form_questions.email_response_message"));
           setForm({
             name: "",
             email: "",
