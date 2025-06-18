@@ -1,0 +1,61 @@
+{
+  "nav": {
+    "home": "Home",
+    "skills": "Skills",
+    "experience": "Experience",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "form_questions":{
+    "name":"Name",
+    "email":"Email Adress",
+    "message":"Message",
+    "message_ph":"Share your thoughts...",
+    "email_response_message":"Thank you. I will get back to you as soon as possible",
+    "email_error_reponse_message":"Something went wrong!",
+    "send":"Send",
+    "sending":"Sending..."
+  },
+  "resume":"Download Resume",
+  "sections":{
+    "skills": "Skills & Technologies",
+    "projects": "Projects",
+    "contact": "Get In Touch",
+    "githubActivity":"GitHub activity"
+  },
+  "hero":{
+    "description":"am a software engineer with a passion for web and Android development, both frontend and backend. Although my experience has been primarily focused on backend development, I have the ability to create scalable, well-structured, and well-documented solutions using various frameworks.",
+    "greeting":"Hi, I am",
+    "profession":"Android/Web Developer",
+    "pronoun":"I"
+  },
+"projects": {
+  "clone_quickstarter": {
+    "title": "QuickStarter Clone – REST API",
+    "desc": "REST API developed as part of the Application Development course, using the C# programming language and the ASP.NET Core framework. The system simulates a crowdfunding platform, allowing the creation and management of campaigns.",
+    "subdesc": "Integrates Mercado Pago as the payment gateway for processing contributions."
+   },
+   
+  "eminus4_extension": {
+    "title": "Eminus4 Extension",
+    "desc": "Browser extension developed for Eminus 4, the online learning platform of Universidad Veracruzana. It allows students to quickly view pending tasks, exams, and forum posts.",
+    "subdesc": "Provides one-click access to each activity, enhancing student productivity."
+  },
+  "protecvida_app": {
+    "title": "ProtecVida – Real-Time Biometric Monitoring App",
+    "desc": "Mobile application developed in Kotlin, designed to manage groups of people and monitor biometric parameters in real time, such as location, heart rate, and blood oxygen.",
+    "subdesc": "Data is collected through smart rings connected via Bluetooth and processed by a Flask (Python) backend responsible for storing and distributing the information."
+  },
+  "fire_damage_classifier": {
+    "title": "Fire Damage Classification System using FSI",
+    "desc": "Web application developed with Flask for the backend and React for the frontend, designed to classify fire damage severity levels using FSI (Fire Severity Index) techniques.",
+    "subdesc": "It allows users to upload images or fire event data, processes them, and returns an automated classification of the damage level, supporting damage assessment and decision-making processes."
+  },
+  "meme_bot": {
+    "title": "MemeBot – Meme Generator and Publisher",
+    "desc": "A Python bot that automatically generates memes using random images and edits them with the Pillow library.",
+    "subdesc": "Posts memes on Twitter using the Tweepy API. Visit the account: https://x.com/MomazosyuyoBot"
+  }
+
+ }
+}

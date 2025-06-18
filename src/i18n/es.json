@@ -1,0 +1,61 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "skills": "Habilidades",
+    "experience": "Experiencia",
+    "projects": "Proyectos",
+    "contact": "Contacto"
+  },
+  "resume":"Descargar Resumen",
+  "form_questions":{
+    "name":"Nombre",
+    "email":"Dirección de Email",
+    "message":"Mensaje",
+    "message_ph":"Comparte tus pensamientos...",
+    "email_response_message":"Gracias. Contestaré lo más rapido posible",
+    "email_error_reponse_message":"Algo salió mal!",
+    "send":"Enviar",
+    "sending":"Enviando..."
+  },
+  "sections":{
+    "skills": "Habilidades y tecnologías",
+    "projects": "Proyectos",
+    "contact": "Ponte en contacto",
+    "githubActivity":"Actividad de GitHub"
+  },
+  "hero":{
+    "description":"un ingeniero de software con pasión por el desarrollo web y Android, tanto en frontend como en backend. Aunque mi experiencia se ha centrado principalmente en el backend, tengo la capacidad de crear soluciones escalables, bien estructuradas y documentadas, utilizando diversos frameworks.",
+    "greeting":"Hola, yo soy",
+    "profession":"Desarrollador Web/Android",
+    "pronoun":"Soy"
+  },
+"projects": {
+  "clone_quickstarter": {
+    "title": "Clon de QuickStarter – API REST",
+    "desc": "API REST desarrollada como parte de la asignatura Desarrollo de Aplicaciones, utilizando el lenguaje de programación C# y el framework ASP.NET Core. El sistema simula una plataforma de financiación colectiva (crowdfunding), permitiendo la creación y gestión de campañas.",
+    "subdesc": "Incluye integración con la pasarela de pagos de Mercado Pago para procesar contribuciones."
+  },
+    "eminus4_extension": {
+    "title": "Extensión para Eminus4",
+    "desc": "Extensión desarrollada para la plataforma Eminus 4 de la Universidad Veracruzana, que permite visualizar de manera rápida las tareas, exámenes y foros pendientes.",
+    "subdesc": "Ofrece acceso directo a cada actividad con un solo clic, mejorando la productividad del estudiante."
+  },
+  "protecvida_app": {
+    "title": "ProtecVida – Aplicación de monitoreo biométrico en tiempo real",
+    "desc": "Aplicación móvil desarrollada en Kotlin, diseñada para gestionar grupos de personas y monitorear en tiempo real parámetros biométricos como la ubicación, la presión cardíaca y el nivel de oxígeno en sangre.",
+    "subdesc": "Los datos se obtienen mediante anillos inteligentes conectados por Bluetooth, y se procesan mediante un backend en Flask (Python) encargado del almacenamiento y distribución de la información."
+  },
+   "fire_damage_classifier": {
+    "title": "Sistema de Clasificación de Daños por Incendios mediante FSI",
+    "desc": "Aplicación web desarrollada con Flask en el backend y React en el frontend, diseñada para clasificar el nivel de daño causado por incendios utilizando técnicas de FSI (Fire Severity Index).",
+    "subdesc": "Permite cargar imágenes o datos de eventos de incendio, procesarlos y obtener una clasificación automatizada del nivel de afectación, brindando apoyo en la evaluación de daños para toma de decisiones."
+  },
+  "meme_bot": {
+    "title": "MemeBot – Generador y Publicador de Memes",
+    "desc": "Bot desarrollado en Python que genera memes automáticamente utilizando imágenes aleatorias y la biblioteca Pillow para editarlos.",
+    "subdesc": "Publica los memes en Twitter usando la API de Tweepy. Visita la cuenta: https://x.com/MomazosyuyoBot"
+  }
+
+
+  }
+}
