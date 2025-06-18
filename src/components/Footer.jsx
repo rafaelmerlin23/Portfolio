@@ -29,7 +29,7 @@ const Footer = () => {
             transition={{ duration: 0.2, ease: "easeOut" }}
           >
             <a
-              href="\Curriculum-vitae-RJMP-esp.pdf"
+              href="Curriculum-vitae-RJMP-esp.pdf"
               download
               target="_blank"
               rel="noopener noreferrer"
