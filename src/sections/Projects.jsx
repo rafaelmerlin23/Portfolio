@@ -15,6 +15,11 @@ const Projects = () => {
   const [slides, setSlides] = useState([]);
   const { t, i18n } = useTranslation();
 
+  const explicitTheme = {
+  dark: ['#383838', '#8EA9FA'],
+}
+
+
   useEffect(() => {
     const carouselSlides = myProjects.map((project, index) => ({
       key: uuidv4(),
@@ -74,18 +79,20 @@ const Projects = () => {
         transition={{ duration: 0.6, ease: "easeOut" }}
         viewport={{ once: true }}
       >
-        <div className="my-20 p-4  bg-[#32303a]  rounded-2xl shadow-lg border dark:border-zinc-700">
-          <h3 className="text-xl font-semibold mb-4 text-center text-zinc-800 dark:text-white">
+        <div className="my-20 p-4 bg-[#32303a]  rounded-2xl shadow-lg border dark:border-zinc-700">
+          <h3 className="text-xl font-semibold mb-4 text-center text-white ">
             {t("sections.githubActivity") || "GitHub Activity"}
           </h3>
-        <div className="w-full overflow-x-auto flex justify-center p-4">
+        <div className=" w-full overflow-x-auto flex justify-center p-4">
         <div className="min-w-[150px] md:min-w-[100px] lg:min-w-[650px]">
           <GitHubCalendar
             username="rafaelmerlin23"
+            colorScheme="dark"
             blockSize={14}
             blockMargin={5}
-            color="#43cea2"
             fontSize={14}
+            theme={explicitTheme}
+            style={{ color: 'white' }} 
           />
         </div>
       </div>
