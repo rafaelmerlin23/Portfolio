@@ -7,12 +7,14 @@ import "react-social-icons/facebook";
 import MouseScroll from "../components/MouseScroll";
 import { socialLinks } from "../constants/data";
 import { motion } from "framer-motion";
-import { useEffect, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { useTranslation } from "react-i18next";
+
 
 const Hero = () => {
   const [waveTrigger, setWaveTrigger] = useState(false);
   const { t } = useTranslation();
+  const { i18n } = useTranslation();
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -45,7 +47,7 @@ after:absolute after:inset-0 after:w-[0.125em] after:animate-caret after:bg-whit
           </h2>
 
           <p className="max-w-4xl text-center justify-center text-white xl:text-xl md:text-lg sm:text-sm text-md">
-            {t("hero.pronoun")}&apos;{t("hero.description")}
+            {t("hero.pronoun")}{i18n.language == "en"? "'":" "}{t("hero.description")}
           </p>
         </div>
         <motion.div
